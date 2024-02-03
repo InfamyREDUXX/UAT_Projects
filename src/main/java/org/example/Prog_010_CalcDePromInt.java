@@ -1,27 +1,26 @@
 package main.java.org.example;
 import java.util.Scanner;
+public class Prog_010_CalcDePromInt {
+    // Calculadora de promedios a 3 números enteros
 
-
-public class Prog_009_CalcDeProm {
-    // Calculadora de promedios a 3 números con punto decimal
-    private static void println(String message) {
+    private static void println(String message){
         System.out.println(message);
     }
     public static void main(String[] args) {
 
-        double n1, n2, n3, prom;
+        int n1, n2, n3, prom;
         Scanner in = new Scanner(System.in);
 
-        println("Calculadora de promedios");
+        println("Calculadora de promedios enteros");
 
         println("Introduce el primer número: ");
-        n1 = in.nextDouble();
+        n1 = in.nextInt();
 
         println("Introduce el segundo número: ");
-        n2 = in.nextDouble();
+        n2 = in.nextInt();
 
-        println("Introduce el tercer número");
-        n3 = in.nextDouble();
+        println("Introduce el tercer número: ");
+        n3 = in.nextInt();
 
         prom = (n1 + n2 + n3) / 3;
 
