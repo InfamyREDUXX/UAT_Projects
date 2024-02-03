@@ -1,8 +1,8 @@
 package org.example;
 
 public class Prog_001_HojaDePresentacion {
+    // Hoja de presentación en Java
     public static void main(String[] args) {
-        // Hoja de presentación en Java
 
         System.out.println ("Universidad Autonoma de Tamaulipas");
         System.out.println ("Facultad de ingeniería Arturo Narro Siller");

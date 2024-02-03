@@ -1,8 +1,8 @@
 package org.example;
 
 public class Prog_005_SecuenciasDeEscape {
+    // Secuencias de escape en Java
     public static void main(String[] args) {
-        // Secuencias de escape en Java
 
         // Nueva línea
         System.out.println("Secuencia de escape para nueva línea: \\n");

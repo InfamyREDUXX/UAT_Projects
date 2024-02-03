@@ -1,8 +1,8 @@
 package org.example;
 
 public class Prog_007_AreaDeUnTriangulo2 {
+    // Area de un triángulo, calculando mediante datos predefinidos
     public static void main(String[] args){
-        // Area de un triángulo, calculando mediante datos predefinidos
 
         int base = 5, altura = 8;
         int area = base * altura / 2;

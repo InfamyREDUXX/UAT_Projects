@@ -1,9 +1,9 @@
 package org.example;
 import java.util.Scanner;
 public class Prog_008_AreaDeUnTriangulo3 {
-
+        // Verdadera calculadora del área de un triángulo
     public static void main(String[] args){
-            // Verdadera calculadora del área de un triángulo
+
             double base, altura, area;
             Scanner in = new Scanner(System.in);
 
