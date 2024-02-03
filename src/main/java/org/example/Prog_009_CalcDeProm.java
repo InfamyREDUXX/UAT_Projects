@@ -1,7 +1,6 @@
 package main.java.org.example;
 import java.util.Scanner;
 
-
 public class Prog_009_CalcDeProm {
     // Calculadora de promedios a 3 números con punto decimal
     private static void println(String message) {
